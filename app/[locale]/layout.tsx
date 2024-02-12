@@ -40,7 +40,8 @@ export const metadata: Metadata = {
   },
   formatDetection: {
     telephone: false
-  },
+  }
+  /*
   openGraph: {
     type: "website",
     siteName: APP_NAME,
@@ -58,6 +59,7 @@ export const metadata: Metadata = {
     },
     description: APP_DESCRIPTION
   }
+  */
 }
 
 export const viewport: Viewport = {
