@@ -26,6 +26,9 @@ interface RootLayoutProps {
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
+  metadataBase: new URL(
+    "https://testchatbot-p53x2gxm2-julian-s-projects.vercel.app"
+  ),
   title: {
     default: APP_DEFAULT_TITLE,
     template: APP_TITLE_TEMPLATE
